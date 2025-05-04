@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Lens Life Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Lens Life</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="booking.html">Book a Session</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <h1>Portfolio</h1>
+        <p>A collection of our finest work</p>
+    </section>
+
+    <section class="portfolio-filter">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="wedding">Weddings</button>
+            <button class="filter-btn" data-filter="portrait">Portraits</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="commercial">Commercial</button>
+        </div>
+    </section>
+
+    <section class="portfolio-gallery">
+        <div class="gallery-grid">
+            <div class="gallery-item wedding" data-category="wedding">
+                <img src="images/wedding.jpg" alt="Wedding Photography">
+                <div class="overlay">
+                    <h3>Sarah & John's Wedding</h3>
+                    <p>Summer 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item portrait" data-category="portrait">
+                <img src="images/portrait.jpg" alt="Portrait Photography">
+                <div class="overlay">
+                    <h3>Professional Headshots</h3>
+                    <p>Corporate Series</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature.jpg" alt="Nature Photography">
+                <div class="overlay">
+                    <h3>Mountain Sunrise</h3>
+                    <p>Landscape Series</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="commercial">
+                <img src="images/pexels-andre-furtado-43594-1264210.jpg" alt="Commercial Photography">
+                <div class="overlay">
+                    <h3>Product Launch</h3>
+                    <p>Tech Company</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/wedding.jpg" alt="Wedding Photography">
+                <div class="overlay">
+                    <h3>Beach Wedding</h3>
+                    <p>Destination Series</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="portrait">
+                <img src="images/portrait.jpg" alt="Portrait Photography">
+                <div class="overlay">
+                    <h3>Family Portraits</h3>
+                    <p>Williams Family</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature.jpg" alt="Nature Photography">
+                <div class="overlay">
+                    <h3>Autumn Colors</h3>
+                    <p>Seasonal Series</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="commercial">
+                <img src="images/pexels-andre-furtado-43594-1264210.jpg" alt="Commercial Photography">
+                <div class="overlay">
+                    <h3>Restaurant Menu</h3>
+                    <p>Food Photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="portrait">
+                <img src="images/portrait.jpg" alt="Portrait Photography">
+                <div class="overlay">
+                    <h3>Graduation Photos</h3>
+                    <p>Class of 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/wedding.jpg" alt="Wedding Photography">
+                <div class="overlay">
+                    <h3>Rustic Wedding</h3>
+                    <p>Barn Venue</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature.jpg" alt="Nature Photography">
+                <div class="overlay">
+                    <h3>Ocean Sunset</h3>
+                    <p>Coastal Series</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="commercial">
+                <img src="images/pexels-andre-furtado-43594-1264210.jpg" alt="Commercial Photography">
+                <div class="overlay">
+                    <h3>Fashion Lookbook</h3>
+                    <p>Spring Collection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Lens Life Photography</h3>
+                <p>Capturing life's beautiful moments since 2010.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="booking.html">Book a Session</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Photography St, City, Country</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@lenslife.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Lens Life Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

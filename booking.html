@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session | Lens Life Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Lens Life</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="booking.html" class="active">Book a Session</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <h1>Book a Photography Session</h1>
+        <p>Let's create something beautiful together</p>
+    </section>
+
+    <section class="booking-container">
+        <div class="booking-info">
+            <h2>Photography Packages</h2>
+            <div class="package">
+                <h3>Standard Session</h3>
+                <p class="price">$250</p>
+                <ul>
+                    <li>1-hour photo session</li>
+                    <li>One location</li>
+                    <li>20 edited digital images</li>
+                    <li>Online gallery</li>
+                </ul>
+            </div>
+            <div class="package featured-package">
+                <h3>Premium Session</h3>
+                <p class="price">$450</p>
+                <ul>
+                    <li>2-hour photo session</li>
+                    <li>Two locations</li>
+                    <li>40 edited digital images</li>
+                    <li>Online gallery</li>
+                    <li>5 printed photos (8×10)</li>
+                </ul>
+            </div>
+            <div class="package">
+                <h3>Deluxe Session</h3>
+                <p class="price">$750</p>
+                <ul>
+                    <li>4-hour photo session</li>
+                    <li>Multiple locations</li>
+                    <li>All edited digital images</li>
+                    <li>Online gallery</li>
+                    <li>10 printed photos (8×10)</li>
+                    <li>Photo album</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="booking-form">
+            <h2>Book Your Session</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="package">Select Package</label>
+                    <select id="package" name="package" required>
+                        <option value="">-- Select a Package --</option>
+                        <option value="standard">Standard Session ($250)</option>
+                        <option value="premium">Premium Session ($450)</option>
+                        <option value="deluxe">Deluxe Session ($750)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sessionType">Session Type</label>
+                    <select id="sessionType" name="sessionType" required>
+                        <option value="">-- Select Session Type --</option>
+                        <option value="portrait">Portrait</option>
+                        <option value="family">Family</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="engagement">Engagement</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="booking-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>What happens after I book?</h3>
+                <p>After submitting your booking request, you'll receive a confirmation email within 24 hours. We'll then schedule a consultation call to discuss your vision and plan the details of your session.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What if I need to reschedule?</h3>
+                <p>We understand that things come up. You can reschedule your session up to 48 hours before your appointment without any fee. Cancellations within 48 hours may be subject to a rebooking fee.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How long until I receive my photos?</h3>
+                <p>You'll receive a preview of your images within 1 week of your session. The complete gallery will be delivered within 2-3 weeks, depending on the package selected.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer custom packages?</h3>
+                <p>Yes! If you have specific needs that aren't covered by our standard packages, please contact us to create a custom package tailored to your requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Lens Life Photography</h3>
+                <p>Capturing life's beautiful moments since 2010.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="booking.html">Book a Session</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Photography St, City, Country</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@lenslife.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Lens Life Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="bookingConfirmation" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Booking Confirmation</h2>
+            <p>Thank you for booking a session with Lens Life Photography!</p>
+            <p>We've received your request and will contact you shortly to confirm the details.</p>
+            <div id="bookingSummary"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>
